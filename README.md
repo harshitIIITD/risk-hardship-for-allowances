@@ -74,13 +74,20 @@ In summary, the methodology involves creating a new index in the DataFrame that 
 
 **Risk Value Categorisation**: A new column risk_value is created in the DataFrame df. This column is initially filled with zeros. Then, based on the value of the 'Risk' column, the risk_value is set to 1, 2, or 3. If 'Risk' is less than 0.333333, risk_value is set to 1. If 'Risk' is between 0.333333 (inclusive) and 0.666666, risk_value is set to 2. If 'Risk' is greater than or equal to 0.666666, risk_value is set to 3. This operation suggests that the 'Risk' values are being categorised into three distinct groups.
 
-**Hardship Value Categorisation**: A similar operation is performed for the 'Hardship' column. A new column, hardship_value, is created and initially filled with zeros. Then, based on the value of the 'Hardship' column, the hardship_value is set to 1, 2, or 3 using the same thresholds as for risk_value. This operation suggests that the 'Hardship' values are also being categorised into three distinct groups.
+**Hardship Value Categorisation**: A similar operation is performed for the 'Hardship' column. A new column, hardship_value, is created and initially filled with zeros. Then, based on the value of the 'Hardship' column, the hardship_value is set to 1, 2, or 3 using the same thresholds as for risk_value. This operation suggests that the 'Hardship' values are also being categorised into three distinct groups. Here are two examples generated of Kupwara and tawang.
+ 
 
-![Alt text]([https://assets.digitalocean.com/articles/alligator/boo.svg](https://github.com/harshitIIITD/risk-hardship-for-allowances/blob/Images/Picture1.png "a title")
+![Risk and Hardship Relationship](https://github.com/harshitIIITD/risk-hardship-for-allowances/blob/Images/Picture1.png?raw=true)
+
+![Kupwara](https://github.com/harshitIIITD/risk-hardship-for-allowances/blob/Images/Kupwara.png?raw=true)
+
+![Tawang](https://github.com/harshitIIITD/risk-hardship-for-allowances/blob/Images/Kupwara.png?raw=true)
 
 - **Targeted Risk Mitigation**: The risk assessment can be used by policymakers to:
   - Prioritise resource allocation for disaster preparedness and mitigation efforts in high-risk sub-districts. This could involve investments in early warning systems, evacuation plans, and infrastructure improvements.
-  - Develop targeted security strategies for border areas and regions prone to terrorist or Maoist activity.
+  - Develop targetand 'Hardship' values. These transformations could be used for further analysis or visualisation of the relationship between 'Risk' and 'Hardship'.
+
+- **Improved Decision-Making**: The framework providesed security strategies for border areas and regions prone to terrorist or Maoist activity.
 - **Improved Decision-Making**: The framework provides valuable insights for:
   - Land-use planning to minimise risks associated with future development.
   - We are identifying vulnerable communities for targeted social welfare programs to enhance disaster resilience.
