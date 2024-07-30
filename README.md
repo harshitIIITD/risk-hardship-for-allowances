@@ -76,7 +76,7 @@ In summary, the methodology involves creating a new index in the DataFrame that 
 
 **Hardship Value Categorisation**: A similar operation is performed for the 'Hardship' column. A new column, hardship_value, is created and initially filled with zeros. Then, based on the value of the 'Hardship' column, the hardship_value is set to 1, 2, or 3 using the same thresholds as for risk_value. This operation suggests that the 'Hardship' values are also being categorised into three distinct groups.
 
-![Model]((https://github.com/harshitIIITD/risk-hardship-for-allowances/blob/Images/Picture1.png?raw=true))
+![Alt text]([https://assets.digitalocean.com/articles/alligator/boo.svg](https://github.com/harshitIIITD/risk-hardship-for-allowances/blob/Images/Picture1.png "a title")
 
 - **Targeted Risk Mitigation**: The risk assessment can be used by policymakers to:
   - Prioritise resource allocation for disaster preparedness and mitigation efforts in high-risk sub-districts. This could involve investments in early warning systems, evacuation plans, and infrastructure improvements.
